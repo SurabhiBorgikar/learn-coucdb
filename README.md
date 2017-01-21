@@ -68,14 +68,17 @@ By default, CouchDB runs on **localhost** and uses the port **5984**. You can re
 ### Futon
 Futon is the built-in, web based, administration interface of CouchDB. 
 
-#### Databases −
-* Creates databases.
-* Destroys databases.
-#### Documents −
-* Creates documents.
-* Updates documents.
-* Edits documents.
-* Deletes documents.
+**Databases:**
+
+1. Creates databases
+2. Destroys databases
+
+**Documents:**
+
+1. Creates documents
+2. Updates documents
+3. Edits documents
+4. Deletes documents
 
 **Starting Futon:**
 <http://localhost:5984/_utils/>
