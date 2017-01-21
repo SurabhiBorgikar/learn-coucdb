@@ -115,17 +115,30 @@ Output:
 
 **Deleting a DB:**
 
+List all DBs:
+
 `curl -X GET localhost:5984/_all_dbs`
 
 Output:
 
 `["_replicator","_users","mydb","mydb1"]`
 
+Delete a DB:
+
 `curl -X DELETE localhost:5984/mydb1`
 
 Output:
 
 `{"ok":true}`
+
+Verify if deleted:
+
+`curl -X GET localhost:5984/_all_dbs`
+
+Output:
+`["_replicator","_users","mydb"]`
+
+
 
 **Creating a Document:**
 
